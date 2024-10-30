@@ -1,17 +1,23 @@
+html{ 
+    background-color: white;
+    padding: 5rem;
+}
 body{
     background-color: azure;
     display: block;
     justify-content: center;
     align-items: center;
+    max-width: 150vh;
     height: auto;
     border: red solid 5px;
+    border-radius: 20px;
     text-align: center;
+    padding-top: 3rem;
 }
 
 img{
     border-radius: 120px;
     width: 100px;
-    padding: 5px 0 0 0;
 }
 .perfil{
     font-size: 28px;
@@ -20,4 +26,21 @@ img{
 }
 h1{
     font-size: 36px;
+}
+.desc{
+    color: darkgray;
+}
+
+a{
+    background: darkgray;
+    color: black;
+    padding: 5px 1rem;
+    border-radius: 10px;
+    direction: none;
+    margin: 1rem;
+}
+
+h2{
+    text-align: left;
+    padding-top: 3rem;
 }
